@@ -1,6 +1,6 @@
 variable "GOOGLE_PROJECT" {
   type        = string
-  default = "terraform-sdrv"
+  default = "flux-sdrvstudent"
   description = "GCP project to use"
 }
 
@@ -23,7 +23,7 @@ variable "GITHUB_TOKEN" {
 
 variable "FLUX_GITHUB_REPO" {
   type        = string
-  default     = "flux-gke-gitops"
+  default     = "flux-gitops"
   description = "Flux GitOps repository"
 }
 
@@ -62,3 +62,4 @@ variable "repository_visibility" {
   default     = "private"
   description = "The visibility of the GitOps repository"
 }
+
